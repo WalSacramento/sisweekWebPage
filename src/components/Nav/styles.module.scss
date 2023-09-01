@@ -1,0 +1,42 @@
+.navbar {
+  background: #0a075f;
+  display: flex;
+  border-bottom: #fff solid 1px;
+
+
+  .container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 2rem;
+  }
+
+  .links {
+    .textLink {
+      color: #fff;
+      margin: 0 1rem;
+    }
+
+    button {
+      background: #0a075f;
+      border: #fff solid 1px;
+      border-radius: 2rem;
+      color: #fff;
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+    }
+
+    button:hover {
+      background: #fff;
+      color: #0a075f;
+    }
+  }
+
+  .imgLogo {
+    height: 30px;
+  }
+}
+
+.navbarScroll{
+  width: 100%;
+  max-height: 100%;
+}
