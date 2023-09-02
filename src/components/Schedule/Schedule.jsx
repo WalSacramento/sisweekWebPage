@@ -12,10 +12,12 @@ export default function Schedule() {
 
   return (
     <div className={S.container}>
-      <h1>Serão 3 dias de evento</h1>
-      <h2>
-        Com uma ampla programação com palestras, mesas redondas e oficinas.
-      </h2>
+      <div className={S.text}>
+        <h1>Serão 3 dias de evento</h1>
+        <h2>
+          Com uma ampla programação com palestras, mesas redondas e oficinas.
+        </h2>
+      </div>
 
       <select
         name="daySelect"

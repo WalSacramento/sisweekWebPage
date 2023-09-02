@@ -37,7 +37,59 @@
         text-align: end;
       }
     }
+  }
+}
 
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    margin-top: 0.5rem;
+    width: 100%;
+    align-items: center;
+
+    .text {
+      width: 100%;
+      margin: 0;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 2rem 0;
+      font-size: 1.5rem;
+    }
+
+    .speakers {
+      margin: 0;
+
+      .speakerLeft {
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+
+        .description {
+          margin: 2rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }
+      }
+
+      .speakerRight {
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+
+        .description {
+          margin: 2rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }
+      }
     }
   }
-
+}
