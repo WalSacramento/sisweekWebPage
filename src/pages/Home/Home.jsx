@@ -1,4 +1,5 @@
 import About from '../../components/About'
+import Footer from '../../components/Footer'
 import Navigation from '../../components/Nav'
 import Schedule from '../../components/Schedule'
 import Speakers from '../../components/Speakers'
@@ -13,6 +14,7 @@ export default function Home() {
       <About />
       <Schedule />
       <Speakers />
+      <Footer />
     </>
   )
 }
