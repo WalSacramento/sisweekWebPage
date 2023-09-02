@@ -4,7 +4,7 @@ import S from './styles.module.scss'
 export default function Map() {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: 'AIzaSyBtQ_loTa1QfjzeeFLDT4QLMURW94vGTKk'
+    googleMapsApiKey: 'AIzaSyB2YUdLlumuPdwzRHyWP-seDZ_UW4_4NOA'
   })
 
   const position = { lat: -10.288869576235648, lng: -36.58466186045109 }
