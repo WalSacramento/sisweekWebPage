@@ -11,6 +11,7 @@
   h1 {
     font-weight: 600;
     color: #fff;
+    margin-top: 2rem;
   }
 
   h2 {
@@ -42,5 +43,23 @@
       border: 2px solid #fff;
       border-radius: 100px;
     }
+  }
+
+  button {
+    margin: 3rem 0;
+    background: #52bada;
+    border: #fff solid 1px;
+    border-radius: 2rem;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    scale: 1.2;
+  }
+
+  button:hover {
+    background: #fff;
+    color: #52bada;
+    border: #52bada solid 1px;
+    scale: 1.25;
   }
 }
