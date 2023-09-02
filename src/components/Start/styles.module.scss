@@ -19,6 +19,7 @@
 
     h1 {
       margin-bottom: 2rem;
+      font-weight: 600;
     }
 
     button {
@@ -26,7 +27,7 @@
     }
 
     .btn1 {
-      background: #52BADA;
+      background: #52bada;
       border: #fff solid 1px;
       border-radius: 2rem;
       color: #fff;
@@ -37,16 +38,16 @@
 
     .btn1:hover {
       background: #fff;
-      color: #52BADA;
-      border: #52BADA solid 1px;
+      color: #52bada;
+      border: #52bada solid 1px;
       scale: 1.25;
     }
 
     .btn2 {
       background: transparent;
-      border: #52BADA solid 1px;
+      border: #52bada solid 1px;
       border-radius: 2rem;
-      color: #52BADA;
+      color: #52bada;
       cursor: pointer;
       padding: 0.5rem 1rem;
       scale: 1.2;
@@ -54,13 +55,9 @@
 
     .btn2:hover {
       background: #fff;
-      color: #52BADA;
-      border: #52BADA solid 1px;
+      color: #52bada;
+      border: #52bada solid 1px;
       scale: 1.25;
     }
-
   }
-
-
-  
 }

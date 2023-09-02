@@ -1,0 +1,62 @@
+.container {
+  margin-top: 1rem;
+  width: 100%;
+  height: 200%;
+  background-image: url(../../assets/img/background_about.png);
+  background-size: cover;
+  display: flex;
+
+  .aboutDiv {
+    width: 50%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    h1 {
+      width: 100%;
+      margin-bottom: 2rem;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    p {
+      width: 100%;
+      margin: 2rem 0;
+      color: #fff;
+    }
+
+    button {
+      background: #fff;
+      border: #52bada solid 1px;
+      border-radius: 2rem;
+      color: #52bada;
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      scale: 1.2;
+    }
+
+    button:hover {
+      background: #52bada;
+      color: #fff;
+      border: #fff solid 1px;
+      scale: 1.25;
+    }
+
+
+  }
+
+  .localizationDiv {
+    width: 50%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      width: 100%;
+      font-weight: 600;
+      color: #fff;
+    }
+  }
+}
