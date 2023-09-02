@@ -10,7 +10,7 @@ import sisweekLogo from '../../assets/img/sisweek_name_logo.png'
 export default function Navigation() {
   return (
     <>
-      <Navbar expand="lg" variant="dark" className={S.navbar}>
+      <Navbar expand="lg" variant="dark" className={S.navbar} sticky="top">
         <Container fluid className={S.container}>
           <Navbar.Brand href="#">
             <img
