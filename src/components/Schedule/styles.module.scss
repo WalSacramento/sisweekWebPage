@@ -52,19 +52,19 @@
 
   button {
     margin: 3rem 0;
-    background: #52bada;
-    border: #fff solid 1px;
+    background: #fff;
+    border: #52bada solid 1px;
     border-radius: 2rem;
-    color: #fff;
+    color: #52bada;
     cursor: pointer;
     padding: 0.5rem 1rem;
     scale: 1.2;
   }
 
   button:hover {
-    background: #fff;
-    color: #52bada;
-    border: #52bada solid 1px;
+    background: #52bada;
+    color: #fff;
+    border: #fff solid 2px;
     scale: 1.25;
   }
 }

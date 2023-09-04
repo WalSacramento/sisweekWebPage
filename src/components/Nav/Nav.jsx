@@ -26,10 +26,10 @@ export default function Navigation() {
                 className={S.navbarScroll}
                 navbarScroll
               >
-                <Nav.Link className={S.textLink} href="#action1">Ínicio</Nav.Link>
-                <Nav.Link className={S.textLink} href="#action2">Sobre o evento</Nav.Link>
-                <Nav.Link className={S.textLink} href="#action3">Programação</Nav.Link>
-                <Nav.Link className={S.textLink} href="#action4">Participantes</Nav.Link>
+                <Nav.Link className={S.textLink} href="#home">Ínicio</Nav.Link>
+                <Nav.Link className={S.textLink} href="#about">Sobre o evento</Nav.Link>
+                <Nav.Link className={S.textLink} href="#schedule">Programação</Nav.Link>
+                <Nav.Link className={S.textLink} href="#speakers">Participantes</Nav.Link>
                 <Button >Garantir minha vaga</Button>
               </Nav>
             </Navbar.Collapse>

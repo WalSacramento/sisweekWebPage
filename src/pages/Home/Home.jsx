@@ -10,10 +10,18 @@ export default function Home() {
   return (
     <>
       <Navigation />
-      <Start />
-      <About />
-      <Schedule />
-      <Speakers />
+      <div id="home">
+        <Start />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="schedule">
+        <Schedule />
+      </div>
+      <div id="speakers">
+        <Speakers />
+      </div>
       <Footer />
     </>
   )
