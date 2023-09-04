@@ -11,8 +11,8 @@ export default function Start() {
       <div className={S.text}>
         <h1>III Terceira Semana de Sistemas de Informação</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequuntur similique nisi, delectus accusantium sequi porro soluta veritatis mollitia distinctio odio alias est rerum? Ipsam minima alias voluptatum at similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos culpa commodi veritatis laboriosam? Laboriosam tempora odio unde, vero cumque deserunt ad nisi quisquam est commodi possimus laudantium repellendus odit adipisci.</p>
-        <Button className={S.btn1}>Garantir minha vaga!</Button>
-        <Button className={S.btn2}>Programação</Button>
+        <Button className={S.btn1}><a href="">Garantir minha vaga!</a></Button>
+        <Button className={S.btn2}><a href="#schedule">Programação</a></Button>
       </div>
     </div>
   )

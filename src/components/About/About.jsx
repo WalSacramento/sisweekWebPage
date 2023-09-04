@@ -19,7 +19,7 @@ export default function About() {
           pariatur et iste harum! Tempora ipsum cupiditate, ducimus voluptatem
           culpa quaerat repellendus.
         </p>
-        <Button className={S.btn}>Acessar localização</Button>
+        <Button className={S.btn}><a href="">Acessar localização</a></Button>
       </div>
 
       <div className={S.localizationDiv}>

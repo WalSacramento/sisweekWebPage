@@ -58,7 +58,7 @@ export default function Schedule() {
         </tr>
       </table>
 
-      <Button>Garantir minha vaga!</Button>
+      <Button><a href="">Garantir minha vaga!</a></Button>
     </div>
   )
 }

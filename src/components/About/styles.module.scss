@@ -34,6 +34,10 @@
       cursor: pointer;
       padding: 0.5rem 1rem;
       scale: 1.2;
+      a {
+        text-decoration: none;
+        color: #52bada;
+      }
     }
 
     button:hover {
@@ -41,6 +45,10 @@
       color: #fff;
       border: #fff solid 1px;
       scale: 1.25;
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
     }
 
 
