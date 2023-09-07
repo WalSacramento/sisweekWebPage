@@ -1,6 +1,6 @@
-import { Button } from 'react-bootstrap'
-import S from './styles.module.scss'
-import Map from '../Map/'
+import { Button } from "react-bootstrap";
+import S from "./styles.module.scss";
+import Map from "../Map/";
 
 export default function About() {
   return (
@@ -8,26 +8,24 @@ export default function About() {
       <div className={S.aboutDiv}>
         <h1>III Semana de Sistemas de Informação</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-          illo, voluptatum quasi ipsa eveniet repellat soluta saepe, itaque eius
-          tempora cupiditate laudantium quae quam fuga cum vel recusandae! Odit,
-          quia? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Distinctio earum vel ut qui ad, voluptatem atque porro voluptatum
-          ducimus minima hic consequuntur illo ea, illum vitae sapiente eos quam
-          provident! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Cumque ex nostrum numquam tenetur possimus, nulla laboriosam, qui enim
-          pariatur et iste harum! Tempora ipsum cupiditate, ducimus voluptatem
-          culpa quaerat repellendus.
+          O SisWeek é mais do que um evento educacional; é uma oportunidade de
+          networking, colaboração e inspiração. Os participantes têm a chance de
+          interagir com outros entusiastas da tecnologia, trocar ideias e
+          estabelecer conexões que podem ser valiosas em suas jornadas
+          profissionais. Junte-se a nós na emocionante III Semana de Sistemas de
+          Informação da Universidade Federal de Alagoas. Convidamos vocês a participar deste evento
+          enriquecedor com temas relacionados à tecnologia da informação,
+          empreendedorismo e gestão, garanta sua vaga!
         </p>
-        <Button className={S.btn}><a href="">Acessar localização</a></Button>
+        <Button className={S.btn}>
+          <a href="">Acessar localização</a>
+        </Button>
       </div>
 
       <div className={S.localizationDiv}>
-        <h1>De 20 a 22 de Setembro</h1>
-        <h1>No CCEU - UFAL Penedo</h1>
-
+        <h1>De 20 a 22 de Setembro no CCEU - UFAL Penedo</h1>
         <Map />
       </div>
     </div>
-  )
+  );
 }

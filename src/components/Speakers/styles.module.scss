@@ -13,6 +13,15 @@
   .speakers {
     margin: 2rem 5rem;
 
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+    }
+
+    p {
+      text-align: justify;
+    }
     .speakerLeft {
       display: flex;
       align-items: center;
