@@ -16,6 +16,18 @@
     margin-top: -1rem;
   }
 
+  .divTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .titleTwo {
+      color: #fff;
+      display: none;
+    }
+  }
+
   .text {
     width: 60%;
     margin: 5rem;
@@ -44,7 +56,6 @@
       border-radius: 2rem;
       color: #fff;
       cursor: pointer;
-      padding: 0.5rem 1rem;
       scale: 1.2;
 
       a {
@@ -70,7 +81,6 @@
       border-radius: 2rem;
       color: #52bada;
       cursor: pointer;
-      padding: 0.5rem 1rem;
       scale: 1.2;
       a {
         text-decoration: none;
@@ -94,9 +104,14 @@
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    height: 100vh;
-    margin-top: -50px;
-    
+    height: 90vh;
+    justify-content: space-around;
+
+    .divTitle {
+      .titleTwo {
+        display: block;
+      }
+    }
 
     h1 {
       font-size: 15px;
@@ -111,6 +126,10 @@
       width: 100%;
       margin: 0;
       text-align: start;
+
+      .titleOne {
+        display: none;
+      }
 
       p {
         margin-top: 2rem;
@@ -137,26 +156,76 @@
   }
 }
 
+@media (max-width: 415px){
+  .container {
+    height: 95vh;
+    display: flex;
+    justify-content: space-between;
+
+    .titleTwo {
+      font-size: 0.9rem;
+    }
+
+    .text {
+      padding-bottom: 5rem;
+
+
+      p {
+        font-size: 0.9rem;
+      }
+    }
+
+    .divbtn {
+      padding-top: 5rem;
+    }
+
+
+  }
+}
+
+@media (max-width: 391px) {
+  .container {
+
+    .titleTwo {
+      font-size: 0.8rem;
+    }
+    .text {
+      p {
+        font-size: 0.8rem;
+      }
+
+      .divbtn {
+        .btn1{
+          width: 230px;
+        }
+        .btn2{
+          width: 210px;
+        }
+      }
+    }
+  }
+}
 
 @media (max-width: 376px) {
   .container {
-    height: 100vh;
-    margin-top: -5px;
-
+    height: 93vh;
+    display: flex;
+    justify-content: space-around;
+    
     h1 {
       font-size: 13px;
     }
 
     
     p {
-      font-size: 13px;
+      font-size: 0.8rem;
     }
 
     .divbtn {
-      padding-bottom: 3rem;
+      padding-top: 2rem;
 
       button {
-        width: 125px;
+        width: auto;
         font-size: 8.5px;
         margin: 20px;
       }

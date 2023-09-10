@@ -7,13 +7,17 @@ import S from "./styles.module.scss";
 export default function Start() {
   return (
     <div className={S.container}>
-      <img
-        className={S.imgLogo}
-        src={sisweekLogo}
-        alt="Logo do evento sisweek"
-      />
+      <div className={S.divTitle}>
+        <img
+          className={S.imgLogo}
+          src={sisweekLogo}
+          alt="Logo do evento sisweek"
+        />
+        <h1 className={S.titleTwo}>III Terceira Semana de Sistemas de Informação</h1>
+      </div>
+
       <div className={S.text}>
-        <h1>III Terceira Semana de Sistemas de Informação</h1>
+        <h1 className={S.titleOne}>III Terceira Semana de Sistemas de Informação</h1>
         <p>
           A semana de Sistemas de Informação (Sisweek) tem como objetivo
           oferecer oportunidades para a realização de atividades de extensão e
