@@ -20,12 +20,7 @@ export default function Start() {
           promover a interação da universidade com a sociedade. Este evento
           abrange uma variedade de tópicos relacionados à tecnologia da
           informação, empreendedorismo e gestão, contribuindo para uma
-          experiência educativa, cultural e científica. Ao longo do SisWeek, os
-          participantes têm acesso a palestras, workshops e painéis ministrados
-          por especialistas em tecnologia e profissionais experientes. O evento
-          oferece insights valiosos sobre as diversas ramificações da
-          tecnologia, fornecendo orientações práticas sobre como incorporá-las
-          de forma eficaz em suas estratégias de negócios.
+          experiência educativa, cultural e científica.
         </p>
         <div className={S.divbtn}>
           <Button className={S.btn1}>

@@ -8,14 +8,12 @@ export default function About() {
       <div className={S.aboutDiv}>
         <h1>III Semana de Sistemas de Informação</h1>
         <p>
-          O SisWeek é mais do que um evento educacional; é uma oportunidade de
-          networking, colaboração e inspiração. Os participantes têm a chance de
-          interagir com outros entusiastas da tecnologia, trocar ideias e
-          estabelecer conexões que podem ser valiosas em suas jornadas
-          profissionais. Junte-se a nós na emocionante III Semana de Sistemas de
-          Informação da Universidade Federal de Alagoas. Convidamos vocês a participar deste evento
-          enriquecedor com temas relacionados à tecnologia da informação,
-          empreendedorismo e gestão, garanta sua vaga!
+          Ao longo do SisWeek, os
+          participantes têm acesso a palestras, workshops e painéis ministrados
+          por especialistas em tecnologia e profissionais experientes. O evento
+          oferece insights valiosos sobre as diversas ramificações da
+          tecnologia, fornecendo orientações práticas sobre como incorporá-las
+          de forma eficaz em suas estratégias de negócios.
         </p>
         <Button className={S.btn}>
           <a href="">Acessar localização</a>
