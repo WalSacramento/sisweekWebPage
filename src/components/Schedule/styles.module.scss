@@ -61,8 +61,7 @@
     color: #52bada;
     cursor: pointer;
     padding: 0.5rem 1rem;
-    scale: 1.2;
-    
+    scale: 1.2;    
     a {
       text-decoration: none;
       color: #52bada;
@@ -117,7 +116,7 @@
 
 @media (max-width: 376px) {
   .container {
-    height: 170vh;
+    height: 140vh;
     padding-top: 25rem;
     display: flex;
     justify-content: baseline;
@@ -139,4 +138,7 @@
     margin-top: -2rem;
     margin-bottom: -2rem;
 }
+
+  button {
+  }
 }

@@ -1,4 +1,3 @@
-import { Button } from 'react-bootstrap'
 import S from './styles.module.scss'
 
 import { useState } from 'react'
@@ -57,8 +56,8 @@ export default function Schedule() {
             <td>Exemplo 3</td>
           </tr>
         </table>
+        <button><a href="">Garantir minha vaga!</a></button>
 
-        <Button><a href="">Garantir minha vaga!</a></Button>
 
 
     </div>
