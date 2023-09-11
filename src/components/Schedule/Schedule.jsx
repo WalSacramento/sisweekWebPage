@@ -39,21 +39,21 @@ export default function Schedule() {
           </tr>
           <tr>
             <td>19:00</td>
-            <td>Exemplo 1</td>
-            <td>Exemplo 2</td>
-            <td>Exemplo 3</td>
+            <td>Sistemas de Informação sob a ótica da Inovação Tecnológica</td>
+            <td>Introdução à Inteligência Artificial (IA) e seu impacto na educação: O papel da IA na transformação do ensino e da aprendizagem.</td>
+            <td>Ferramentas de gestão de mudanças aplicadas à microempresários e empresas de pequeno porte</td>
           </tr>
           <tr>
             <td>20:00</td>
-            <td>Exemplo 1</td>
-            <td>Exemplo 2</td>
-            <td>Exemplo 3</td>
+            <td>IA e Tomada de Decisão </td>
+            <td>Sistemas de Informação Quântica: A Próxima Revolução Tecnológica</td>
+            <td>Automação de Processos de Negócios</td>
           </tr>
           <tr>
             <td>21:00</td>
-            <td>Exemplo 1</td>
-            <td>Exemplo 2</td>
-            <td>Exemplo 3</td>
+            <td>Empreendedor de Tecnologia de Sucesso </td>
+            <td>Sintonizando - A Intimidade entre Sistemas de Informação e Empreendedores</td>
+            <td>Sintonizando - A Intimidade entre Sistemas de Informação e Empreendedores. Foco: Tecnologia por meio das redes (Redes Sociais para vender melhor)</td>
           </tr>
         </table>
         <button><a href="">Garantir minha vaga!</a></button>
