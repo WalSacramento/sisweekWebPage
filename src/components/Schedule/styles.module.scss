@@ -1,6 +1,5 @@
 .container {
   width: 100%;
-  height: 100vh;
   background-image: url(../../assets/img/background_schedule.png);
   background-size: cover;
   display: flex;
@@ -27,29 +26,14 @@
     }
   }
 
-  select {
-    display: none;
-  }
-
-  table {
-    width: 80%;
-    text-align: center;
-    
-
-    tr {
-      color: #000;
-      font-size: 1.5rem;
-      padding: 0.5rem;
-      border: 2px solid #fff;
-      border-radius: 100px;
-    }
-
-    td {
-      color: #000;
-      font-size: 1.5rem;
-      padding: 0.5rem;
-      border: 2px solid #fff;
-      border-radius: 100px;
+  .schedule{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      max-width: 30%;
+      height: 20%;
     }
   }
 
