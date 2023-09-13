@@ -2,6 +2,7 @@ import S from "./styles.module.scss";
 
 import PhotoMagno from "../../assets/img/magno.jpg";
 import PhotoGustavo from "../../assets/img/gustavo.jpg";
+import PhotoDavy from "../../assets/img/davy.jpg";
 
 export default function Speakers() {
   return (
@@ -37,10 +38,10 @@ export default function Speakers() {
             <p>
               Doutor e Mestre em Ciência da Computação pela Universidade Federal
               de Pernambuco. Graduado em Licenciatura em Computação
-              pela Universidade de Pernambuco. 
+              pela Universidade de Pernambuco.
             </p>
             <p>
-            Professor Adjunto do curso
+              Professor Adjunto do curso
               de graduação em Sistemas de Informação da Universidade Federal de
               Alagoas (UFAL) da unidade educacional de Penedo - AL. Possui
               experiência de pesquisa na área de Ciência da Computação, com
@@ -51,55 +52,12 @@ export default function Speakers() {
           </div>
         </div>
         <div className={S.speakerLeft}>
-          <img src={PhotoMagno} alt="" />
+          <img src={PhotoDavy} alt="" />
           <div className={S.description}>
-            <h2>Nome do palestrante</h2>
-            <p>Descrição do palestrante</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni cum
-              fugit odit quibusdam sit error natus possimus voluptatum non
-              consequatur delectus architecto, dolor maxime fugiat quidem
-              aperiam fuga expedita eos.
-            </p>
-          </div>
-        </div>
-        <div className={S.speakerRight}>
-          <img src={PhotoMagno} alt="" />
-          <div className={S.description}>
-            <h2>Nome do palestrante</h2>
-            <p>Descrição do palestrante</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni cum
-              fugit odit quibusdam sit error natus possimus voluptatum non
-              consequatur delectus architecto, dolor maxime fugiat quidem
-              aperiam fuga expedita eos.
-            </p>
-          </div>
-        </div>
-        <div className={S.speakerLeft}>
-          <img src={PhotoMagno} alt="" />
-          <div className={S.description}>
-            <h2>Nome do palestrante</h2>
-            <p>Descrição do palestrante</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni cum
-              fugit odit quibusdam sit error natus possimus voluptatum non
-              consequatur delectus architecto, dolor maxime fugiat quidem
-              aperiam fuga expedita eos.
-            </p>
-          </div>
-        </div>
-        <div className={S.speakerRight}>
-          <img src={PhotoMagno} alt="" />
-          <div className={S.description}>
-            <h2>Nome do palestrante</h2>
-            <p>Descrição do palestrante</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni cum
-              fugit odit quibusdam sit error natus possimus voluptatum non
-              consequatur delectus architecto, dolor maxime fugiat quidem
-              aperiam fuga expedita eos.
-            </p>
+            <h2>Davy Baia</h2>
+            <p>Possui graduação em Bacharelado em Sistema de Informação (2006) e Especialização em Engenharia de software para Web (2007) pela Faculdade de Alagoas e MBA em Gerenciamento de Projetos pela Fundação Getúlio Vargas (2010), obteve o título de mestre em Modelagem Computacional de Conhecimento pela Universidade Federal de Alagoas (2013)</p>
+            <p>Suas principais áreas/temas de interesses são: Engenharia de Software, Multi-Agentes, Gestão de Projetos e Inteligência Artificial. Atualmente é Professor Adjunto na Universidade Federal de Alagoas.</p>
+
           </div>
         </div>
       </div>
