@@ -28,7 +28,7 @@ export default function Start() {
         </p>
         <div className={S.divbtn}>
           <Button className={S.btn1}>
-            <a href="">Garantir minha vaga!</a>
+            <a href="https://doity.com.br/sisweek-2023">Garantir minha vaga!</a>
           </Button>
           <Button className={S.btn2}>
             <a href="#schedule">Programação</a>

@@ -16,7 +16,7 @@ export default function About() {
           de forma eficaz em suas estratégias de negócios.
         </p>
         <Button className={S.btn}>
-          <a href="">Acessar localização</a>
+          <a href="https://www.google.com/maps/search/CCEU%20-%20UFAL%20PENEDO,R.%20Fernandes%20de%20Barros,%2017,Penedo/@-10.2890596,-36.5847155">Acessar localização</a>
         </Button>
       </div>
 
