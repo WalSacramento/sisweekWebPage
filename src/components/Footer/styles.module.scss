@@ -52,10 +52,22 @@
     .realizationAndPartners {
       display: flex;
       flex-direction: column;
-      align-items: start;
+      align-items: center;
 
-      p {
-        text-align: start;
+      .partners {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+
+      }
+
+      .logos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
       }
     }
   }

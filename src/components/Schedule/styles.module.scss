@@ -71,7 +71,7 @@
     align-items: center;
     width: 100%;
     padding-top: 20rem;
-    height: 122vh;
+    
 
   .text {
     width: 90%;
@@ -85,11 +85,11 @@
       font-size: 20px;
     }
   }
-  //é aqui
+
   .schedule{
     img {
-      height: 25rem;
-      width: 20rem;
+      max-width: 95%;
+      height: 100%;
     }
   }
 
@@ -100,8 +100,6 @@
 
 @media (max-width: 376px) {
   .container {
-    height: 140vh;
-    padding-top: 25rem;
     display: flex;
     justify-content: baseline;
   }
