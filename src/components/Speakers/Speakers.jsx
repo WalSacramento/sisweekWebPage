@@ -3,6 +3,7 @@ import S from "./styles.module.scss";
 import PhotoMagno from "../../assets/img/magno.jpg";
 import PhotoGustavo from "../../assets/img/gustavo.jpg";
 import PhotoDavy from "../../assets/img/davy.jpg";
+import PhotoThyago from "../../assets/img/thyago_tenorio.jfif";
 
 export default function Speakers() {
   return (
@@ -55,9 +56,21 @@ export default function Speakers() {
           <img src={PhotoDavy} alt="" />
           <div className={S.description}>
             <h2>Davy Baia</h2>
-            <p>Possui graduação em Bacharelado em Sistema de Informação (2006) e Especialização em Engenharia de software para Web (2007) pela Faculdade de Alagoas e MBA em Gerenciamento de Projetos pela Fundação Getúlio Vargas (2010), obteve o título de mestre em Modelagem Computacional de Conhecimento pela Universidade Federal de Alagoas (2013)</p>
+            <p>Bacharel em Sistemas de Informação (2006) e Especialização em Engenharia de software para Web (2007) pela Faculdade de Alagoas e MBA em Gerenciamento de Projetos pela Fundação Getúlio Vargas (2010), obteve o título de mestre em Modelagem Computacional de Conhecimento pela Universidade Federal de Alagoas (2013)</p>
             <p>Suas principais áreas/temas de interesses são: Engenharia de Software, Multi-Agentes, Gestão de Projetos e Inteligência Artificial. Atualmente é Professor Adjunto na Universidade Federal de Alagoas.</p>
 
+          </div>
+        </div>
+        <div className={S.speakerRight}>
+          <img src={PhotoThyago} alt="" />
+          <div className={S.description}>
+            <h2>Thyago Tenório</h2>
+            <p>
+            Bacharel em Ciência da Computação pela Universidade Federal de Alagoas (UFAL) e Mestre em Informática pela UFAL. Sua dissertação foi premiada em 2° lugar no concurso de teses e dissertações defendidas (CTD) em 2015 na área de computação no CSBC. 
+            </p>
+            <p>
+            Atualmente, é professor assistente na área de algoritmos e programação na UFAL Campus Arapiraca/Pólo Penedo, pesquisador do Núcleo de Excelência em Tecnologias Sociais (NEES), pesquisador no Laboratório de Computação Aplicada à Educação e Tecnologia Social Avançada (CAED) e Co-Fundador da empresa incubada MeuTutor, a qual ganhou diversos prêmios de inovação como "Empreendedor Inovador ", "Rio Info" e "USP Inovação". Cursando doutorado em Ciências de Computação e Matemática Computacional no Instituto de Ciências Matemáticas e de Computação da Universidade de São Paulo (USP). Tem experiência na área de Ciência da Computação, com ênfase em Engenharia de software, Web Semântica, Inteligência Artificial aplicado a ambientes educacionais, ambientes colaborativos e inteligência coletiva.
+            </p>
           </div>
         </div>
       </div>
