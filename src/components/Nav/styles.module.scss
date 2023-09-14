@@ -24,10 +24,20 @@
       padding: 0.5rem 1rem;
     }
 
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+
     button:hover {
       background: #fff;
       color: #0a075f;
+
+      a {
+        color: #0a075f;
+      }
     }
+
   }
 
   .imgLogo {

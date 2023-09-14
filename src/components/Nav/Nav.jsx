@@ -30,7 +30,9 @@ export default function Navigation() {
                 <Nav.Link className={S.textLink} href="#about">Sobre o evento</Nav.Link>
                 <Nav.Link className={S.textLink} href="#schedule">Programação</Nav.Link>
                 <Nav.Link className={S.textLink} href="#speakers">Participantes</Nav.Link>
-                <Button >Garantir minha vaga</Button>
+                <Button className={S.btn1}>
+                  <a href="https://doity.com.br/sisweek-2023">Garantir minha vaga!</a>
+                </Button>
               </Nav>
             </Navbar.Collapse>
           </div>
